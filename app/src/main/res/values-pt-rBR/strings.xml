@@ -1,0 +1,101 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Dose</string>
+    <string name="home">Início</string>
+    <string name="calendar">Calendário</string>
+    <string name="add_time" tools:ignore="MissingTranslation">Adicionar horário</string>
+    <string name="add_medication">Adicionar medicação</string>
+    <string name="medication_name">Nome da medicação</string>
+    <string name="dose_per_day">Dosagem</string>
+    <string name="dose_optional" tools:ignore="MissingTranslation">Dose (Opcional)</string>
+    <string name="recurrence">Recorrência</string>
+    <string name="frequency" tools:ignore="MissingTranslation">Frequência</string>
+    <string name="end_date">Data de término</string>
+    <string name="times_of_day">Horários do dia</string>
+    <string name="times_for_medication">Horário(s) para medicação</string>
+    <string name="schedule" tools:ignore="MissingTranslation">Agenda</string>
+    <string name="next">Próximo</string>
+    <string name="value_is_empty">Por favor, insira um valor válido para %s</string>
+    <string name="all_done">Tudo pronto!</string>
+    <plurals name="all_set" tools:ignore="MissingTranslation">
+        <item quantity="one">Seus lembretes de %1$s estão prontos, com %2$s alerta %3$s até %4$s.</item>
+        <item quantity="many">Seus lembretes de %1$s estão prontos, com %2$s alertas %3$s até %4$s.</item>
+        <item quantity="other">Seus lembretes de %1$s estão prontos, com %2$s alertas %3$s até %4$s.</item>
+    </plurals>
+    <string name="confirm">Confirmar</string>
+    <string name="time_remaining">Próxima dose em %1$s %2$s</string>
+    <string name="days">dias</string>
+    <string name="hours">horas</string>
+    <string name="minutes">minutos</string>
+    <string name="take_dose_now">Tome sua dose agora</string>
+    <string name="taken">Tomado</string>
+    <string name="skipped">Ignorado</string>
+    <string name="done">Concluído</string>
+    <string name="history">Histórico</string>
+    <string name="no_history_yet">Ainda sem histórico</string>
+    <string name="back">Voltar</string>
+    <string name="add">Adicionar</string>
+    <string name="medication_name_hint">ex: Risperdal, 4mg</string>
+    <string name="error">Erro</string>
+    <string name="dosage_hint">ex: 1</string>
+    <string name="max_dosage_error_message">Você não pode ter mais de 99 doses por dia.</string>
+    <string name="selected_content_description">Selecionado</string>
+    <string name="dosage_and_frequency_mismatch_error_message">Você está selecionando %s horário(s) do dia, o que é mais do que o número de doses.</string>
+    <string name="your_plan_for_today">Seu plano para hoje</string>
+    <string name="daily_medicine_log">%d de %d concluídos.</string>
+    <string name="medication_break">Intervalo da medicação</string>
+    <string name="home_screen_empty_card_message">Nenhuma medicação agendada para esta data. Faça uma pausa e relaxe.</string>
+    <string name="today">Hoje</string>
+    <string name="this_week">Esta semana</string>
+    <string name="next_week">Próxima semana</string>
+    <string name="notifications">Notificações</string>
+    <string name="notification_permission_required">Permissão de notificação necessária</string>
+    <string name="notification_permission_required_description_message">Para garantir que você nunca perca sua medicação, conceda a permissão de notificação.</string>
+    <string name="alarms" tools:ignore="MissingTranslation">Notificações</string>
+    <string name="alarms_permission_required" tools:ignore="MissingTranslation">Permissão de alarmes necessária</string>
+    <string name="alarms_permission_required_description_message" tools:ignore="MissingTranslation">Para garantir que você nunca perca sua medicação, conceda a permissão de alarmes.</string>
+    <string name="allow">Permitir</string>
+    <string name="medication_taken_at">Tomado às %s</string>
+    <string name="medication_skipped_at">Ignorado às %s</string>
+    <string name="medication_scheduled_at">Agendado para %s</string>
+    <string name="medication_timely_reminders_setup_message">%s agora está configurado para lembretes no horário certo.</string>
+    <string name="medication_logged">Medicação registrada</string>
+    <string name="medication_dose_details">%d dose às %s</string>
+    <string name="medication_reminder">Lembrete de medicação</string>
+    <string name="notifications_for_medication_reminder">Notificações para lembrete de medicação</string>
+    <string name="medication_reminder_time">É hora de tomar sua medicação, %s. Abra o aplicativo para registrá-la.</string>
+    <string name="cancel">Cancelar</string>
+    <string name="ok">OK</string>
+    <string name="daily" tools:ignore="MissingTranslation">Diário</string>
+    <string name="weekly" tools:ignore="MissingTranslation">Semanal</string>
+    <string name="monthly" tools:ignore="MissingTranslation">Mensal</string>
+    <string name="duration" tools:ignore="MissingTranslation">Duração</string>
+    <string name="select_duration" tools:ignore="MissingTranslation">Selecionar duração</string>
+    <plurals name="duration_days" tools:ignore="MissingTranslation">
+        <item quantity="one">%d dia</item>
+        <item quantity="other">%d dias</item>
+    </plurals>
+    <plurals name="duration_weeks" tools:ignore="MissingTranslation">
+        <item quantity="one">%d semana</item>
+        <item quantity="other">%d semanas</item>
+    </plurals>
+    <plurals name="duration_months" tools:ignore="MissingTranslation">
+        <item quantity="one">%d mês</item>
+        <item quantity="other">%d meses</item>
+    </plurals>
+    <plurals name="duration_years" tools:ignore="MissingTranslation">
+        <item quantity="one">%d ano</item>
+        <item quantity="other">%d anos</item>
+    </plurals>
+    <string name="everyday" tools:ignore="MissingTranslation">Todos os dias</string>
+    <string name="every_n_days" tools:ignore="MissingTranslation">A cada %s dias</string>
+    <string name="every_week" tools:ignore="MissingTranslation">Toda semana</string>
+    <string name="every_n_weeks" tools:ignore="MissingTranslation">A cada %s semanas</string>
+    <string name="every_month" tools:ignore="MissingTranslation">Todo mês</string>
+    <string name="type" tools:ignore="MissingTranslation">Tipo</string>
+    <string name="tablet" tools:ignore="MissingTranslation">Comprimido</string>
+    <string name="capsule" tools:ignore="MissingTranslation">Cápsula</string>
+    <string name="type_syrup" tools:ignore="MissingTranslation">Xarope</string>
+    <string name="drops" tools:ignore="MissingTranslation">Gotas</string>
+    <string name="spray" tools:ignore="MissingTranslation">Spray</string>
+    <string name="gel" tools:ignore="MissingTranslation">Gel</string>
+</resources>

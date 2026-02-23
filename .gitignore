@@ -1,0 +1,239 @@
+# Built application files
+*.apk
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+release/
+
+# Gradle files
+.gradle/
+build/
+*/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration file (sensitive)
+local.properties
+
+# Proguard folder (generated)
+proguard/
+
+# Log Files
+*.log
+
+# Android Studio Navigation editor temp files
+.navigation/
+
+# Android Studio captures folder
+captures/
+
+# IntelliJ
+*.iml
+.idea/
+!.idea/.gitignore
+!.idea/.name
+!.idea/compiler.xml
+!.idea/copyright/
+!.idea/codeStyleSettings.xml
+!.idea/codeStyles/
+!.idea/copyright/
+!.idea/copyright/profiles_settings.xml
+!.idea/dictionaries/
+!.idea/gradle.xml
+!.idea/jarRepositories.xml
+!.idea/misc.xml
+!.idea/modules.xml
+!.idea/runConfigurations.xml
+!.idea/scopes/
+!.idea/vcs.xml
+!.idea/assetWizardSettings.xml
+!.idea/deploymentTargetDropDown.xml
+!.idea/encodings.xml
+
+# Keystore files (CRITICAL - NEVER commit these!)
+*.jks
+*.keystore
+*.keystore
+*.keys
+
+# Google Services (CRITICAL - contains API keys!)
+google-services.json
+app/google-services.json
+mobile/google-services.json
+
+# Firebase
+firebase.json
+*.firebase*
+
+# Crashlytics (contains secrets)
+crashlytics.properties
+fabric.properties
+crashlytics-build.properties
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/README.md
+
+# Bundle store
+fastlane/.env
+*.env
+.env.*
+
+# Signing files (CRITICAL)
+*.pem
+*.p12
+*.pkcs12
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# VS Code (if you use it)
+.vscode/
+*.code-workspace
+
+# Testing
+test-results/
+test-output/
+*.test
+
+# Gradle wrapper (keep jar but ignore properties)
+!gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
+
+# C++/Native
+.cxx/
+.externalNativeBuild/
+
+# Generated native build files
+*.so
+*.dylib
+*.dll
+
+# React Native (if applicable)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+.buckd/
+*.keystore
+!debug.keystore
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/README.md
+
+# NDK
+*.cr
+*.pdb
+
+# Android Profiling
+*.hprof
+
+# Keystore and signing properties
+*.properties
+!gradle.properties
+!local.properties
+!gradle-wrapper.properties
+
+# Environment variables
+.env
+.env.local
+.env.staging
+.env.production
+.env.development
+
+# Secrets (general)
+secrets.*
+*secret*
+*password*
+*credential*
+*key*
+!README.md
+
+# Database schemas (optional - uncomment if you don't want them)
+# app/schemas/
+
+# Large media files
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.zip
+*.tar
+*.gz
+
+# Release builds
+/release/
+app/release/
+*/release/
+
+# Generated APK/AAB files
+app/app-release.apk
+app/app-debug.apk
+app/app-release.aab
+app/app-debug.aab
+*-release.apk
+*-debug.apk
+*-release.aab
+*-debug.aab
+
+# Documentation build (optional)
+docs/_site/
+docs/vendor/
+
+# Caches
+.cache
+*.cache
+
+# Temp files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Python (if you have any Python scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Gradle generated files
+**/build/
+!**/build.gradle.kts
+!**/build.gradle
+
+# Android Lint
+lint-reports/
+lint-results-*.xml
+lint-baseline-*.xml
+
+# API keys file (if you use a separate config file)
+api-keys.xml
+secrets.xml
+config.xml
+!strings.xml
